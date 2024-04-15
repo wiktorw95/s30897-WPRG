@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zad.4</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: lightgray;
+            height: 50px;
+        }
+        .main{
+            flex: 1;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .main ~ box1{
+            justify-content: space-evenly;
+            left: 0;
+            display: flex;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <p>Strona główna</p>
+        <p>O nas</p>
+        <p>Kontakt</p>
+    </header>
+    <main class="main">
+        <div class="box1">Witaj na naszej skomplikowanej stronie!</div>
+        <div class="box3">
+            <h3>Dodatkowe Informacje</h3>
+            <p>...</p>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone</p>
+    </footer>
+</body>
+</html>
